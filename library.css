@@ -1,0 +1,194 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 10px;
+	height: 100vh;
+	overflow: auto;
+	background-color: rgb(75, 44, 44)
+}
+
+
+.container::-webkit-scrollbar{
+    width: 5px;
+}
+.container::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgb(139, 58, 58), #63171f);
+    width: 3px;
+
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: #3a0707;
+    border-radius: 8px;
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(75, 44, 44)
+}
+
+h1{
+	color: white;
+	margin: 40px 0;
+}
+
+.menu p{
+	color:antiquewhite;
+	font-size: 38px;
+	font-weight: 700;
+	margin: 40px 0;
+}
+
+a{
+	color: rgb(252, 252, 252);
+	display: block;
+	margin: 10px 10px 0 10px;
+	font-size: 36px;
+	text-decoration: none;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+}
+h4{
+	color: white;
+	margin: 40px 10;
+	
+}
+
+ul{
+	padding: 0 0 100px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+}
+
+form{
+	margin-bottom: 40px;
+}
+
+body{
+	background-color: rgb(75, 44, 44)
+}
+
+li{
+	color: white;
+	list-style: none;
+	padding: 10px 25px;
+	border-radius: 30px;
+	background-color: rgb(58, 8, 8);
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+
+audio {
+	width: 100%;
+	position: fixed;
+	bottom: -120px;
+	max-width: 880px;
+	transition: all 0.5s;
+	
+}
+
+button {
+	border-radius: 10px;
+	padding: 7px 16px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgb(255, 255, 255);
+	width: 100px;
+
+}
+
+input{
+	border-radius: 10px;
+	padding: 6px 17px;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: monospace;
+	background-color: rgb(255, 255, 255);
+	width: 200px;
+	margin-left: 10px;
+
+}
+
+
+.menu{
+	height: 100vh;
+	background-color: rgb(49, 28, 28)	
+}
+
+.root{
+	display: flex;
+	
+
+}
+
+.mpicture{
+	margin-left: 10px;
+	display: flex;	
+	
+	
+}
+
+.picture{
+	width: 40px;
+	margin-right: 15px;
+	display: inline-block;
+	
+	
+}
+
+#add-library{
+	margin-left: auto;
+	margin-right: 15px;
+}
+
+#play:focus {
+	
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px rgb(75, 44, 44)
+}
+
+#add-library:hover {
+	background-color:rgb(75, 44, 44);
+	transition: 0.7s;
+}
+
+.search{
+	position: absolute;
+	padding: auto;
+	margin-left: 10px;
+	width: 100px;
+	height: fit-content;
+}
+
+.search:hover{
+	background-color:rgb(75, 44, 44);
+	transition: 0.7s;
+}
+
+.mpicture{
+	display: flex;
+	align-items: center;
+}
+
+.mpicture a{
+	margin: 0 20px 0 0;
+}
